@@ -5,16 +5,22 @@ export default function Navbar() {
   return (
     <>
       <div className="container">
-        <nav className="navbarBox">
+        <nav className="navbarBox fixed-top">
           <ul className="order">
             <li className="aboutList orderList ">
-              <Link to="/">About Us</Link>
+              <Link to="/" className="linkList">
+                About Us
+              </Link>
             </li>
             <li className="contactList orderList">
-              <Link to="/contactUs">Contact Us</Link>
+              <Link to="/contactUs" className="linkList">
+                Contact Us
+              </Link>
             </li>
             <li className="messageList orderList">
-              <Link to="/message">Message</Link>
+              <Link to="/message" className="linkList">
+                Message
+              </Link>
             </li>
           </ul>
         </nav>
