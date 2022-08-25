@@ -4,7 +4,7 @@ import Navbar from './Component/Navbar'
 import AboutUs from "./Component/NavComponent/AboutUs";
 import ContactUs from './Component/NavComponent/ContactUs';
 import Message from "./Component/NavComponent/Message"
-import { BrowserRouter as Router,Route,Link, Routes } from 'react-router-dom'
+import { BrowserRouter as Router,Route, Routes } from 'react-router-dom'
  export default function App() {
   return (
     <>
